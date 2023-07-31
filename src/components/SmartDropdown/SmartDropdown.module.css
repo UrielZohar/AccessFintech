@@ -1,0 +1,48 @@
+:root {
+  --black100: hsla(225, 14%, 12%, 1);
+  --black200: hsla(225, 14%, 14%, 1);
+  --black300: hsla(225, 14%, 16%, 1);
+  --black400: hsla(225, 14%, 18%, 1);
+  --black500: hsla(225, 14%, 20%, 1);
+  --black600: hsla(225, 14%, 22%, 1);
+  --white100: hsla(225, 14%, 100%, 1);
+  --white200: hsla(225, 14%, 100%, 0.8);
+  --blue100: hsla(210, 100%, 37%, 1);
+  --blue200: hsla(210, 100%, 33%, 1);
+  --blue300: hsla(210, 100%, 35%, 1);
+  --blue400: hsla(210, 100%, 33%, 0.5);
+}
+
+.SmartDropdown {
+  height: 250px;
+}
+
+.SmartDropdownMoreIcon {
+  background-color: var(--black600);
+  width: 30px;
+  color: var(--white100);
+  cursor: pointer;
+}
+
+.items {
+  display: none;
+}
+
+.itemsVisible {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  overflow-y: scroll;
+  width: 200px;
+}
+
+.item {
+  padding: 10px;
+  background-color: var(--black600);
+  color: var(--white100);
+  cursor: pointer;
+}
+
+.itemSelected {
+  background-color: var(--blue100);
+}
