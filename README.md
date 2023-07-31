@@ -1,3 +1,16 @@
+# The Project Includes
+✅ Using React
+
+✅ Using TypeScript
+
+✅ Using CSS Module
+
+✅ Performance improvement 
+
+✅ Deployment to AWS S3 (https://access-fintech.s3.amazonaws.com/index.html)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
